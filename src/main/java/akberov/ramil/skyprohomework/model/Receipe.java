@@ -5,13 +5,12 @@ import lombok.Data;
 import lombok.NonNull;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 @Data
 @AllArgsConstructor
 
-public class Receipes {
+public class Receipe {
     @NonNull
     private String name;
     @NonNull

@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class IngredientsImpl implements Ingredients {
 
-    Map<Long, Ingredients> ingredientsMap = new HashMap<>();
+   private Map<Long, Ingredients> ingredientsMap = new HashMap<>();
     private static long ingredientId = 1L;
 
     @Override
